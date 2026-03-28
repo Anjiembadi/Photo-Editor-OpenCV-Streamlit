@@ -93,18 +93,22 @@ This project is useful for learning both:
 - **Streamlit**
 
 ---
-
 ## 📂 Project Structure
 
 photo-editor/
 │── app.py
 │── requirements.txt
 │── README.md
-│── 3670.png
-│── edited_image.png
-│── screenshots/
-
----
+│── main.png
+│── blur.png
+│── grayscale.png
+│── edge.png
+│── warm.png
+│── sketch.png
+│── rotate.png
+│── sharpen.png
+│── original.png
+│── output.png
 ## 📸 Screenshots
 
 ### 🖥️ Main Interface
