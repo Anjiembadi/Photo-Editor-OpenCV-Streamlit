@@ -105,29 +105,38 @@ photo-editor/
 │── screenshots/
 
 ---
-
-## 📸 Application Screenshots
+## 📸 Screenshots
 
 ### 🖥️ Main Interface
-Shows the complete UI with upload option, adjustment controls, filter section, extra feature section, and live preview.
-
-![Main Interface](Screenshot%202026-03-28%20094755.png)
-
----
+![Main](screenshots/main.png)
 
 ### 🌫️ Blur Filter
-The blur filter softens the image by reducing sharp details.
+![Blur](screenshots/blur.png)
 
-![Blur Filter](Screenshot%202026-03-28%20094648.png)
+### ⚫ Grayscale
+![Grayscale](screenshots/grayscale.png)
 
----
+### ✂️ Edge Detection
+![Edge](screenshots/edge.png)
 
-### ⚫ Grayscale Filter
-Converts the image from color into black-and-white tones.
+### 🌤️ Warm Filter
+![Warm](screenshots/warm.png)
 
-![Grayscale Filter](Screenshot%202026-03-28%20094621.png)
+### ✏️ Sketch Effect
+![Sketch](screenshots/sketch.png)
 
----
+### 🔄 Rotate
+![Rotate](screenshots/rotate.png)
+
+### 🔍 Sharpen
+![Sharpen](screenshots/sharpen.png)
+## 📸 Application Screenshots
+
+## 🖼️ Sample Input
+![Original](screenshots/original.png)
+
+## ✅ Downloaded Output
+![Output](screenshots/output.png)
 
 ### ✂️ Edge Detection
 Highlights object boundaries using contour-based edge extraction.
