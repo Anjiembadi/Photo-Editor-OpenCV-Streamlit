@@ -1,39 +1,228 @@
-# Photo Editor using OpenCV & Streamlit
+# 🖼️ Photo Editor using OpenCV & Streamlit
 
-A simple photo editor web application built using OpenCV and Streamlit.  
-This project allows users to upload an image, apply basic adjustments, use filters and effects, preview the result, and download the edited image.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![OpenCV](https://img.shields.io/badge/OpenCV-Image%20Processing-green?logo=opencv)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red?logo=streamlit)
+![Status](https://img.shields.io/badge/Project-Completed-success)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## Features
-- Upload image
-- Resize image using width and height sliders
-- Adjust brightness and contrast
-- Apply filters:
-  - Grayscale
-  - Blur
-  - Sharpen
-  - Warm filter
-  - Portrait-style background blur
-- Extra features:
-  - Edge detection
-  - Sketch effect
-  - Cartoon effect
-  - Rotation
-- Download edited image
+> A professional **image editing web application** built with **OpenCV** and **Streamlit** that allows users to upload images, apply adjustments, filters, and visual effects, and instantly download the edited output through an interactive interface.
 
-## Tech Stack
-- Python
-- OpenCV
-- Streamlit
-- NumPy
-- Pillow
+---
 
-## Project Flow
-Upload → Adjust → Apply Filters/Effects → View → Download
+## 📌 Overview
 
-## Installation
-Clone the repository and install dependencies:
+The **Photo Editor using OpenCV & Streamlit** is an interactive computer vision project designed to perform real-time image editing directly in the browser.
 
-```bash
-git clone <your-repository-link>
-cd <your-project-folder>
-pip install -r requirements.txt
+This application enables users to:
+
+- Upload images easily  
+- Adjust image dimensions and visual properties  
+- Apply multiple filters such as **Blur, Grayscale, Warm, Sharpen, Portrait Blur**  
+- Use extra effects like **Edge Detection, Rotate, Sketch Effect**  
+- Preview original and edited images side by side  
+- Download the final processed image instantly  
+
+The project demonstrates practical implementation of **image processing techniques**, **OpenCV operations**, and **Streamlit-based UI development** in a beginner-friendly but professional format.
+
+---
+
+## ✨ Key Features
+
+### 🎛️ Basic Adjustments
+- Resize image using **width** and **height**
+- Control **brightness**
+- Adjust **contrast**
+
+### 🎨 Filters
+- **Blur**
+- **Grayscale**
+- **Warm**
+- **Sharpen**
+- **Portrait Blur**
+
+### 🛠️ Extra Effects
+- **Edge Detection**
+- **Rotate**
+- **Sketch Effect**
+
+### 👀 Preview & Export
+- Side-by-side display of:
+  - **Original Image**
+  - **Edited Image**
+- One-click **Download Edited Image**
+
+---
+
+## 🚀 Workflow
+
+The application follows a simple and user-friendly pipeline:
+
+**Upload → Adjust → Apply Filters/Effects → Preview → Download**
+
+This ensures smooth editing while allowing the user to visually compare the original and processed image before downloading.
+
+---
+
+## 🧠 Project Objective
+
+The main goal of this project is to build a practical **photo editing application** using **computer vision concepts**.  
+It helps in understanding how real-world image editors use operations such as:
+
+- pixel manipulation
+- filtering
+- grayscale conversion
+- edge extraction
+- rotation
+- blur effects
+- contrast and brightness enhancement
+
+This project is useful for learning both:
+
+- **OpenCV for image processing**
+- **Streamlit for deploying ML/CV projects as web apps**
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python**
+- **OpenCV**
+- **NumPy**
+- **Pillow**
+- **Streamlit**
+
+---
+
+## 📂 Project Structure
+
+photo-editor/
+│── app.py
+│── requirements.txt
+│── README.md
+│── 3670.png
+│── edited_image.png
+│── screenshots/
+
+---
+
+## 📸 Application Screenshots
+
+### 🖥️ Main Interface
+Shows the complete UI with upload option, adjustment controls, filter section, extra feature section, and live preview.
+
+![Main Interface](Screenshot%202026-03-28%20094755.png)
+
+---
+
+### 🌫️ Blur Filter
+The blur filter softens the image by reducing sharp details.
+
+![Blur Filter](Screenshot%202026-03-28%20094648.png)
+
+---
+
+### ⚫ Grayscale Filter
+Converts the image from color into black-and-white tones.
+
+![Grayscale Filter](Screenshot%202026-03-28%20094621.png)
+
+---
+
+### ✂️ Edge Detection
+Highlights object boundaries using contour-based edge extraction.
+
+![Edge Detection](Screenshot%202026-03-28%20094933.png)
+
+---
+
+### 🌤️ Warm Filter
+Applies a warmer tone to the image for a soft visual appearance.
+
+![Warm Filter](Screenshot%202026-03-28%20095004.png)
+
+---
+
+### ✏️ Sketch Effect
+Transforms the image into a pencil-sketch style output.
+
+![Sketch Effect](Screenshot%202026-03-28%20094948.png)
+
+---
+
+### 🔄 Rotation Effect
+Rotates the image based on the selected angle.
+
+![Rotation Effect](Screenshot%202026-03-28%20094910.png)
+
+---
+
+### 🔍 Sharpen Filter
+Enhances image clarity by making edges and details more visible.
+
+![Sharpen Filter](Screenshot%202026-03-28%20094856.png)
+
+---
+
+## 🖼️ Sample Input Image
+
+This is the original uploaded image used for testing inside the application.
+
+![Original Image](3670.png)
+
+---
+
+## ✅ Downloaded Output Image
+
+This is the final downloaded edited image generated by the application.
+
+![Downloaded Edited Image](edited_image.png)
+
+---
+
+## 💡 Use Cases
+
+This project can be used for:
+
+- Learning **OpenCV image processing**
+- Practicing **Streamlit app development**
+- Building a **portfolio-ready computer vision project**
+- Understanding how filters and effects work in image editing software
+
+---
+
+## 🔮 Future Enhancements
+
+Possible improvements for the next version:
+
+- Add **crop functionality**
+- Add **flip and mirror effects**
+- Add **text overlay**
+- Add **multiple file upload**
+- Add **real-time webcam editing**
+- Add **before/after slider comparison**
+- Add **advanced color correction tools**
+
+---
+
+## 📚 Learning Outcomes
+
+Through this project, one can understand:
+
+- How to read and process images in Python
+- How OpenCV applies transformations and effects
+- How to build an interactive UI using Streamlit
+- How to deploy a computer vision project as a web application
+- How image editing logic can be translated into a real-world product
+
+---
+
+## 🙌 Acknowledgment
+
+This project was developed as a hands-on practice application to explore the integration of **OpenCV** with **Streamlit** for real-time image editing and visual enhancement.
+
+---
+
+## 📎 Conclusion
+
+The **Photo Editor using OpenCV & Streamlit** is a practical and portfolio-worthy computer vision project that combines image processing with an interactive web-based user experience. It demonstrates how Python can be used not only for backend logic but also for building visually functional applications for end users.
